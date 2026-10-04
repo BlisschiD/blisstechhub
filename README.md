@@ -1,21 +1,23 @@
 # Blisstechhub
 
-> A practical computer training and digital literacy platform designed to make technology learning simple, accessible, and useful.
+> Technology, digital skills, and practical solutions built for you.
 
 ## About the Project
 
-Simba Computer Guru is a digital literacy and computer training project focused on helping learners build practical technology skills they can apply in school, work, business, and everyday life.
+Blisstechhub is a technology and digital skills platform focused on making technology simple, practical, and accessible.
 
-The project is designed around simple, hands-on learning rather than theory alone.
+The project brings together technology education, digital literacy, web development, and modern digital tools to help individuals and businesses build useful skills and grow online.
 
-## What the Project Covers
+## What Blisstechhub Covers
 
 - Computer fundamentals
 - Digital literacy
+- Web development
 - Practical computer skills
 - Internet and online productivity
-- Introduction to modern digital tools
-- Technology awareness and practical learning
+- Digital marketing
+- Technology education
+- Modern digital tools
 
 ## Technologies Used
 
@@ -25,9 +27,9 @@ The project is designed around simple, hands-on learning rather than theory alon
 
 ## Project Goals
 
-The goal of Simba Computer Guru is to make technology easier to understand and more accessible to people at different levels of digital experience.
+The goal of Blisstechhub is to make technology easier to understand and more useful in everyday life, education, business, and professional development.
 
-The project also provides an opportunity to explore how technology, education, and practical digital skills can come together to solve real-world problems.
+The platform is also being developed as a practical space for exploring how technology can solve real-world problems.
 
 ## Project Status
 
@@ -43,4 +45,4 @@ Full-Stack Developer • Growth-Focused Brand Strategist • Data & AI Enthusias
 
 ---
 
-⭐ If you find this project useful, feel free to explore the repository and follow the project as it develops.
+⭐ Follow the repository to keep up with the development of Blisstechhub.
