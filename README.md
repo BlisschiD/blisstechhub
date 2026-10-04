@@ -1,4 +1,4 @@
-# Simba Computer Guru
+# Blisstechhub
 
 > A practical computer training and digital literacy platform designed to make technology learning simple, accessible, and useful.
 
