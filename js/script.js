@@ -1,22 +1,31 @@
-// ================================
-// Blisstechhub - Main JavaScript
-// ================================
+/* =========================================
+   BLISSTECHHUB
+   Main JavaScript
+========================================= */
 
-
-// Mobile Navigation
 const menuToggle = document.getElementById("menuToggle");
 const navbar = document.getElementById("navbar");
 
+
+// Mobile navigation
 if (menuToggle && navbar) {
 
     menuToggle.addEventListener("click", () => {
+
         navbar.classList.toggle("active");
+
+        const isOpen = navbar.classList.contains("active");
+
+        menuToggle.setAttribute("aria-expanded", isOpen);
+
+        menuToggle.textContent = isOpen ? "✕" : "☰";
+
     });
 
 }
 
 
-// Close mobile menu after clicking a link
+// Close menu when a navigation link is clicked
 const navLinks = document.querySelectorAll(".navbar a");
 
 navLinks.forEach((link) => {
@@ -27,12 +36,17 @@ navLinks.forEach((link) => {
             navbar.classList.remove("active");
         }
 
+        if (menuToggle) {
+            menuToggle.textContent = "☰";
+            menuToggle.setAttribute("aria-expanded", "false");
+        }
+
     });
 
 });
 
 
-// Automatically update the footer year
+// Automatically update copyright year
 const year = document.getElementById("year");
 
 if (year) {
